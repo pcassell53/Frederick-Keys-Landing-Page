@@ -1,0 +1,201 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background-image: url(../Images/Frederick\ Keys\ Landing\ Page\ Background-10.svg);
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 500px;
+    margin: 0 auto;
+    background-color: #FFE396;
+    font-family: 'Bree Serif', serif;
+}
+
+#keyoteColumn {
+    margin-top: 90px;
+}
+
+#keyoteImage {
+    width: 45%;
+}
+
+#scheduleRow {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.processBox {
+    border: 5px solid black;
+    padding: 20px;
+    margin: 15px;
+    box-shadow: 5px 10px black;
+    background-color: #F47D30;
+    color: white;
+}
+
+.scheduleTitle {
+    font-size: 50px;
+    font-weight: 700;
+    color: black;
+    text-align: center;
+}
+
+.scheduleSubtitle {
+    font-size: 30px;
+    font-weight: 700;
+    color: black;
+}
+
+.teamName {
+    float: left;
+    color: black;
+    font-size: 25px;
+}
+
+.gameDates {
+    float: right;
+    color: black;
+    font-size: 25px;
+}
+
+#marchantLogo {
+    width: 45%;
+}
+
+#mainNavbar {
+    background-color: black;
+    padding: 5px;
+}
+
+.navbar-nav ml-auto {
+    color: black;
+}
+
+nav .navbar-nav li a {
+    color: white !important;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+nav .navbar-nav li a:hover {
+    color: #F47D30 !important;
+}
+
+#mainNavbar>div>div.d-flex.flex-nowrap.w-100>button>span {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+#mainNavbar > div > div.d-flex.flex-nowrap.w-100 > button {
+    border-color: black;
+}
+
+#bottomFooter {
+    text-align: center;
+    color: #ffffff;
+    background-color: black;
+    position: absolute;
+}
+
+a #dribbbleFooter {
+    text-decoration: none;
+    padding-left: 5px;
+    color: #ffffff;
+    transition: 0.2s;
+}
+
+a #linkedinFooter {
+    text-decoration: none;
+    padding-left: 5px;
+    color: #ffffff;
+    transition: 0.2s;
+}
+
+a #githubFooter {
+    text-decoration: none;
+    padding-left: 5px;
+    color: #ffffff;
+    transition: 0.2s;
+}
+
+
+a #dribbbleFooter:hover {
+    color: #F47D30;
+}
+
+a #linkedinFooter:hover {
+    color: #F47D30;
+}
+
+a #githubFooter:hover {
+    color: #F47D30;
+}
+
+#milbLogo {
+    width: 15%;
+}
+
+@-moz-document url-prefix() { 
+    
+    #marchantLogo {
+        width: 245px;
+    }
+    
+    #milbLogo {
+        width: 245px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    body {
+        background-image: url("../Images/Frederick\ Keys\ Landing\ Page\ Background\ Mobile.svg");
+        background-position: center;
+        background-size: cover;
+        margin: 0 auto;
+    }
+
+    nav .navbar-nav li a {
+        color: white !important;
+        font-size: 18px;
+        transition: 0.5s;
+    }
+
+    nav .navbar-nav li a:hover {
+        color: #F47D30;
+    }
+
+    #keyoteImage {
+        width: 400px;
+    }
+
+    #keyoteColumn {
+        margin-top: 100px;
+        margin-bottom: 15px;
+    }
+
+    #scheduleRow {
+        margin-top: 10px;
+    }
+
+    #mainNavbar {
+        background-color: black;
+    }
+
+    .teamName {
+        font-size: 20px;
+    }
+
+    .gameDates {
+        font-size: 20px;
+    }
+
+    #milbLogo {
+        width: 50%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+}
