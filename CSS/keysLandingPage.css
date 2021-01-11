@@ -140,7 +140,7 @@ a #githubFooter:hover {
 @-moz-document url-prefix() { 
     
     #marchantLogo {
-        width: 50px;
+        width: 100px;
     }
     
     #milbLogo {
