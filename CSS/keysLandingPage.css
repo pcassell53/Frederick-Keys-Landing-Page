@@ -2,6 +2,7 @@ body,
 html {
     height: 100%;
     margin: 0;
+    overflow-x: hidden;
 }
 
 body {
@@ -18,9 +19,9 @@ body {
     margin-top: 90px;
 }
 
-#keyoteImage {
+/*#keyoteImage {
     width: 45%;
-}
+}*/
 
 #scheduleRow {
     margin-top: 50px;
