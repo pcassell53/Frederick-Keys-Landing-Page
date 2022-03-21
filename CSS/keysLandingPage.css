@@ -19,10 +19,6 @@ body {
     margin-top: 90px;
 }
 
-/*#keyoteImage {
-    width: 45%;
-}*/
-
 #scheduleRow {
     margin-top: 50px;
     margin-bottom: 50px;
@@ -60,10 +56,6 @@ body {
     float: right;
     color: black;
     font-size: 25px;
-}
-
-#marchantLogo {
-    width: 45%;
 }
 
 #mainNavbar {
