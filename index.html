@@ -177,52 +177,6 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-12">
-                    <div id="eventNames"></div>
-                    <div id="eventTimes"></div>
-                    <div id="eventDates"></div>
-                    <script>
-                    function fetchEventInformation() {
-                    fetch('https://www.ticketsmarter.com/p/frederick-keys-tickets')
-                    .then(response => response.text())
-                    .then(html => {
-                    const parser = new DOMParser();
-                    const doc = parser.parseFromString(html, 'text/html');
-                    const eventNames = doc.querySelectorAll('.eventName');
-                    const eventTimes = doc.querySelectorAll('.eventTime');
-                    const eventDates = doc.querySelectorAll('.eventDate');
-                    const eventNamesContainer = document.getElementById('eventNames');
-                    const eventTimesContainer = document.getElementById('eventTimes');
-                    const eventDatesContainer = document.getElementById('eventDates');
-                    // Populate the event names
-                    eventNames.forEach(event => {
-                    const eventNameElement = document.createElement('p');
-                    eventNameElement.textContent = event.textContent;
-                    eventNamesContainer.appendChild(eventNameElement);
-                    });
-                    // Populate the event times
-                    eventTimes.forEach(event => {
-                    const eventTimeElement = document.createElement('p');
-                    eventTimeElement.textContent = event.textContent;
-                    eventTimesContainer.appendChild(eventTimeElement);
-                    });
-                    // Populate the event dates
-                    eventDates.forEach(event => {
-                    const eventDateElement = document.createElement('p');
-                    eventDateElement.textContent = event.textContent;
-                    eventDatesContainer.appendChild(eventDateElement);
-                    });
-                    })
-                    .catch(error => {
-                    console.error('Error:', error);
-                    });
-                    }
-                    // Call the function to fetch and populate event information
-                    fetchEventInformation();
-                    </script>
-                </div>
-            </div>
-            <div class="row">
                 <div class="col-md-12 pt-4 pb-4" id="bottomFooter" data-aos="fade-center">
                     <img src="Images/milb.svg" id="milbLogo" class="mt-2 mb-2" alt="">
                     <div class="row">
